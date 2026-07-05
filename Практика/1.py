@@ -33,5 +33,4 @@ for i in range(len(coord)):
 fig, ax = plt.subplots()
 for color, cluster in clusters:
     ax.scatter(cluster[0], cluster[1], color=color)
-print(clusters)
 plt.show()
