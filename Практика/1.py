@@ -34,3 +34,4 @@ fig, ax = plt.subplots()
 for color, cluster in clusters:
     ax.scatter(cluster[0], cluster[1], color=color)
 plt.show()
+ 
